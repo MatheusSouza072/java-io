@@ -11,7 +11,7 @@ public class TestRead2 {
 
 		Scanner scanner = new Scanner(new File("contas.csv"), StandardCharsets.UTF_8.name());
 
-		while (scanner.hasNextLine()) {
+		while (scanner.hasNextLine() ) {
 			String line = scanner.nextLine();
 			// System.out.println(line);
 
